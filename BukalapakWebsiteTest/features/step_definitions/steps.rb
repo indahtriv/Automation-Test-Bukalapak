@@ -4,9 +4,9 @@ require 'rspec'
 
 driver = Selenium::WebDriver.for :chrome
 link = "https://www.bukalapak.com/"
-email = "hendrasimz92@gmail.com"
-password = "Simangunsong77!"
-wrongPassword = "simangunsong"
+email = "indahtrivena312@gmail.com"
+password = "indahtriv008"
+wrongPassword = "indahtriv"
 Given("Open Bukalapak") do
   driver.navigate.to link
 end
